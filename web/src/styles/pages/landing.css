@@ -1,0 +1,156 @@
+#page-landing{
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .content-wraper{
+  
+    position: relative;
+
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url(../../images/Landing.svg) no-repeat 80% center; 
+}
+
+#page-landing .content-wraper main{
+    max-width: 350px;
+}
+
+#page-landing .content-wraper main h1{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#page-landing .content-wraper main p{
+    margin-top: 48px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.content-wraper .Welcome{
+    position: absolute;
+    right: 0;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.content-wraper .Welcome strong{
+    font-weight: 800;
+} 
+
+.image{
+    display: none;
+}
+
+.content-wraper .enter-app{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+
+}
+
+.content-wraper .enter-app:hover{
+    background-color: #96FEFF;
+}
+
+
+/* tela para tablets */
+@media screen and (max-width: 960px)
+{
+    #page-landing .content-wraper{
+        background: url(../../images/Landing.svg) no-repeat 80% center; 
+        background-size: 60%;
+
+    }
+}
+
+/* tela para celulares */
+@media screen and (max-width: 750px){
+    #page-landing .content-wraper{
+        background: none;
+        margin-right: 50px;
+    }
+
+    .image{
+        display: inline;
+        margin-top: 30px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p{
+        display: none;
+    }
+}
+@media screen and (max-width: 440px){
+    #page-landing .content-wraper{
+        background: none;
+        margin-right: 50px;
+    }
+
+    .image{
+        display: inline;
+        margin-top: 30px;
+        margin-right: -40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p{
+        display: none;
+    }
+}
+@media screen and (max-width: 350px){
+    #page-landing .content-wraper{
+        background: none;
+        margin-right: 0px;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .content-wraper .Welcome strong{
+        display: none;
+    }
+
+    #page-landing .content-wraper main h1{
+        font-size: 50px;
+    }
+}

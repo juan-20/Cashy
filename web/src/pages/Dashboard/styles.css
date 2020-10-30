@@ -1,0 +1,60 @@
+h3{
+  margin-bottom: 2rem;
+  font-size: 5.2rem;
+}
+
+.renda-session{
+  border: 1px solid #fff;
+  margin-top: 2.4rem;
+  overflow: hidden;
+  display: flex;
+
+  padding: -50%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.renda-session .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cep-session{
+  border: 1px solid #fff;
+  margin-top: 2.4rem;
+  overflow: hidden;
+  display: flex;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cep-session .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome-session{
+  border: 1px solid #fff;
+  margin-top: 2.4rem;
+  overflow: hidden;
+  display: flex;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome-session .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

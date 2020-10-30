@@ -1,0 +1,44 @@
+#form-page{
+   
+}
+
+#form-page .form-item{
+    color: white;
+}
+
+#form-page .form-item main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#form-page .form-item fieldset{
+    width: 70%;
+
+    margin-top: 2.4rem;
+    padding: 1rem;
+    border: 2   px ridge white;
+
+    margin-bottom: 5rem;
+}
+
+#form-page footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-page .confirm-button{
+    background: #000;
+    color: #fff;
+
+    margin-top:3rem;
+    padding: 1.2rem;
+
+    border-radius: 1.2rem;
+    border: none;
+
+}
