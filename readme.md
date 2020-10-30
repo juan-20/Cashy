@@ -22,11 +22,11 @@ Tive dificuldades ao fazer a aplicação.
 
 para ligar o servidor e exibir as informações dá certo:
 
-<img src="/readmeFiles/issues/issues_server_list.PNG">
+<img src="https://github.com/juan-20/Cashy/blob/main/readmeFiles/issues/issue_server_list.PNG">
 
 porém na hora de fazer o post dá um erro que não consegui resolver:
 
-<img src="https://github.com/juan-20/Cashy/blob/main/readmeFiles/issues/issue_server_list.PNG">
+<img src="https://github.com/juan-20/Cashy/blob/main/readmeFiles/issues/issue_server_post.PNG">
 
 <br/>
 
